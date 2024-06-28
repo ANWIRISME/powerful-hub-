@@ -2609,7 +2609,7 @@ local locallv = W:AddLabel("Level")
     spawn(function()
         while wait() do
             pcall(function()
-                localrace:Set("Race :".." "..game:GetService("Players").LocalPlayer.Data.Race.Value)
+                localrace:Set("Tộc Của Bạn :".." "..game:GetService("Players").LocalPlayer.Data.Race.Value)
             end)
         end
     end)
@@ -2629,7 +2629,7 @@ local locallv = W:AddLabel("Level")
     spawn(function()
         while wait() do
             pcall(function()
-                localfrag:Set("Fragments :".." "..game:GetService("Players").LocalPlayer.Data.Fragments.Value)
+                localfrag:Set("Điểm F :".." "..game:GetService("Players").LocalPlayer.Data.Fragments.Value)
             end)
         end
     end)
@@ -2640,7 +2640,7 @@ local locallv = W:AddLabel("Level")
     spawn(function()
         while wait() do
             pcall(function()
-                localexp:Set("ExP Points :".." "..game:GetService("Players").LocalPlayer.Data.Exp.Value)
+                localexp:Set("ExP  :".." "..game:GetService("Players").LocalPlayer.Data.Exp.Value)
             end)
         end
     end)
@@ -2650,7 +2650,7 @@ local locallv = W:AddLabel("Level")
     spawn(function()
         while wait() do
             pcall(function()
-                localstat:Set("Stats Points :".." "..game:GetService("Players").LocalPlayer.Data.Points.Value)
+                localstat:Set("Điểm Stats :".." "..game:GetService("Players").LocalPlayer.Data.Points.Value)
             end)
         end
     end)
