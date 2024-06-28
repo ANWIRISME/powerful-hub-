@@ -5,7 +5,7 @@ elseif game.PlaceId == 4442272183 then
 elseif game.PlaceId == 7449423635 then
     World3 = true
 else
-    game:GetService("Players").LocalPlayer:Kick("Không Hỗ Trợ Game, Please wait...")
+    game:GetService("Players").LocalPlayer:Kick("Powerful Hub Kick |Reason:Not Support This Game| ...")
 end
 
 function CheckQuest() 
