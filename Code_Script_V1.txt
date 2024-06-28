@@ -2939,7 +2939,7 @@ end
     
     
     M:AddButton({
-        Name = "nhập hết code",
+        Name = "Nhập Hết Code|Cập Nhật Mỗi Tháng|",
         Callback = function()
             function RedeemCode(value)
                 game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(value)
@@ -2957,7 +2957,7 @@ end
 M:AddParagraph("Main Farm","")
 
 ToggleFarm = M:AddToggle({
-    Name = "Cày cấp",
+    Name = "Farm Level",
     Default = false,
     Flag = "LevelFarm",
     Save = true,
@@ -3023,7 +3023,7 @@ spawn(function()
 end)
 
 M:AddToggle({
-    Name = "https://spdmteam.com/key-system-1?hwid=5ba7b31a6994209a&zone=Europe/Rome&os=android",
+    Name = "Nhặt Lửa",
     Default = false,
     Flag = "AutoAzureAmber",
     Save = true,
@@ -3047,7 +3047,7 @@ end)
 
 
 M:AddToggle({
-    Name = "định vị đảo kitsune",
+    Name = "Định Vị Kitsune Island",
     Default = false,
     Flag = "EspKitsune",
     Save = true,
@@ -3398,7 +3398,7 @@ M:AddToggle({
     })
 
 M:AddToggle({
-    Name = "gom quái",
+    Name = "Gom Quái",
     Default = true,
     Flag = "Bring Mobs",
     Save = false,
